@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-  *main - Entry
-  *Return: Always 0
+  *_isalpha - checks for alphabets
+  *@c: character to be checked
+  *Return: 1 if character is a letter, 0 otherwise
   */
 int _isalpha(int c)
 {
-	return (( c >= 'a' && c <= 'z' ) || (c >= 'A' && c <= 'Z' ));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }

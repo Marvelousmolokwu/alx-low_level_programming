@@ -1,6 +1,6 @@
-#include "maim.h"
+#include "main.h"
 /**
-  * main - Entry
+  *jack_beuer - prints every minute of the day
   *return: every minute of the day of Jack Bauer
   */
 void jack_bauer(void)
