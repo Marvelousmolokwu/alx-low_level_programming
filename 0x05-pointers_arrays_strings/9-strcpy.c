@@ -5,7 +5,7 @@
  *@src: source
  *Return: string
  */
-char *_strcpy(char *dest, char char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int len = 0;
 
@@ -15,7 +15,7 @@ char *_strcpy(char *dest, char char *src)
 		len++;
 	}
 
-	*(dest + len) '\0';
+	*(dest + len) = '\0';
 	return (dest);
 }
 
