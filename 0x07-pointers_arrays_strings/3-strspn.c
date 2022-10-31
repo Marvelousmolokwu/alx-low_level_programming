@@ -15,16 +15,16 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (index = 0; accept[index]; index++)
 		{
-			if (*s == accepts[index])
+			if (*s == accept[index])
 			{
 				bytes++;
 				break;
 			}
 			else if (accept[index + 1] == '\0')
-				return (bytes)
+				return (bytes);
 		}
 
-		s++
+		s++;
 	}
 	return (bytes);
 }
