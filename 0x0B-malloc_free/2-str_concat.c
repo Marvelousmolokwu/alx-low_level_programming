@@ -2,7 +2,7 @@
 /**
   *_strlen - count array
   *@s: array of elements
-  *Return :
+  *Return: i
   */
 int _strlen(char *s)
 {
@@ -17,8 +17,8 @@ int _strlen(char *s)
 }
 /**
   *str_concat - back a pointer to array
-  *@s1: array one
-  *@s2: array two
+  *@s1: Array one
+  *@s2: Array two
   *Return: always an array dinamic
   */
 char *str_concat(char *s1, char *s2)
@@ -31,7 +31,8 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 	size = (_strlen(s1) * _strlen(s2) + 1);
-	dst = (char *) mallac(size * sizeof(char));
+
+	dst = (char *) malloc(size * sizeof(char));
 
 	if (dst == 0)
 	{

@@ -2,14 +2,14 @@
 /**
   *_strlen - count array
   *@s: array of elements
-  *return: 1
+  *Return: 1
   */
 int _strlen(char *s)
 {
 	unsigned int i;
 
 	i = 0;
-	while (s[i] != '\0')
+	while (s[i] != '\0')/*count character of strings */
 	{
 		i++;
 	}
@@ -19,7 +19,7 @@ int _strlen(char *s)
   *_strcpy - copy arrays
   * @src: array of elements
   *@dest: dest array
-  *return: dest
+  *Return: dest
   */
 char *_strcpy(char *dest, char *src)
 {
