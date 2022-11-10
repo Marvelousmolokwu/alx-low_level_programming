@@ -17,3 +17,4 @@ int *array_range(int min, int max)
 	while (i <= max - min)
 		arr[i++] = t++;
 	return (arr);
+}
